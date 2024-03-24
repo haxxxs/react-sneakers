@@ -54,6 +54,16 @@ header{
   border: 1px solid #f2f2f2;
   border-radius: 10px;
   padding: 0 15px;
+  position: relative;
+
+  .clear{
+    position: absolute;
+    right: 0;
+    width: 18px;
+    height: 18px;
+    top: 13px;
+    right: 13px;
+  }
 
   input{
     border: 0;
@@ -89,7 +99,14 @@ header{
   .items{
     flex: 1;
     overflow: auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+  }
+
+  .cartItem{
+    margin-bottom: 30px;
+    b{
+      font-weight: 600;
+    }
   }
 
   h2{
